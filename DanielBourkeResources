@@ -1,0 +1,179 @@
+
+Daniel Bourke https://whimsical.com/machine-learning-roadmap-2020-CA7f3ykvXpnJ9Az32vYXva
+
+https://www.madewithml.com
+
+https://workera.ai
+
+https://teachyourselfcs.com
+
+https://jasonbenn.com/
+
+https://paperswithcode.com/
+
+
+
+1. Machine Learning Problems (Categories of Learning)
+    1. Supervised Learning - Data with labels
+    2. Unsupervised Learning - Data with no labels
+    3. Transfer Learning - 
+    4. Reinforcement Learning
+2. Machine Learning Problems (Problem Domain)
+    1. Regression 
+        1. Predicting a number
+        2. Evaluation Metrics
+            1. R - Squared
+            2. MSE (Mean Squared Error)
+            3. MAE (Mean Absolute Error)
+    2. Classification 
+        1. Binary classification / Multiclass classification / Multilabel classification
+        2. Evaluation Mtrics
+            1. Confusion Matrix
+            2. Accuracy
+            3. f1 score
+            4. ROC Curve / AUC (Area Under Curve)
+    3. Seq - to - Seq
+        1. 
+    4. Clustering
+    5. Dimensionality Reduction
+3. Machine Learning Process
+    1. Data Collection
+        1. Questions to Ask - Source/ Privacy concerns / Public /  
+        2. Types of Data 
+            1. Structured Data
+                1. Categorical
+                    1. Nominal
+                    2. Ordinal
+                2. Numerical
+                    1. Discrete
+                    2. Continuous
+                3. Time series
+            2. Unstructured Data
+    2. Data Preparation
+        1. Exploratory Data Analysis
+        2. Data Preprocessing
+            1. Feature Imputation
+                1. Single Imputation
+                2. Multiple Imputation
+                3. KNN - k nearest neighbour
+            2. Feature Encoding
+                1. OneHotEncoding
+                2. LabelEncoder
+                3. Embedding Encoding
+            3. Feature Normalization
+                1. Feature Scaling
+                2. Feature Standardization
+            4. Feature Engineering
+                1. Decompose
+                2. Dicretization
+                3. Crossing and Interaction features
+                4. Indicator Features
+            5. Feature selection
+                1. Dimesnionality Reduction(PCA)
+                2. Feature Importance
+            6. Dealing with Imbalances
+                1. Collect more data
+                2. Use scikit-learn-contrib imbalanced-learn package
+                3. Use SMOTE(Synthetic minority over-sampling technique)
+        3. Data Splitting
+            1. Training set
+            2. Validation set
+            3. Test set 
+    3. Train Model on Data
+        1. Choosing the Algorithm
+            1. Supervised Algorithm
+                1. Linear Regression
+                2. Logistic Regression
+                3. k-Nearest Neighbours
+                4. Support Vector Machines
+                5. Decision Trees and Random Forests
+                6. Ada Boost / Gradient Boosting
+                7. Neural Networks
+            2. Unsupervised Learning
+                1. Clustering
+                2. Visualization and Dimensionality Reduction
+                3. Anomaly Detection
+        2. Type of Learning
+            1. Batch Learning
+            2. Online Learning
+            3. Transfer Learning
+            4. Active Learning
+            5. Ensembling
+        3. Underfitting
+        4. Overfitting 
+            1. L1 and L2 (Ridge and Lasso Rgression)
+            2. Dropout
+            3. Early Stopping
+            4. Data Augmentation
+            5. Batch Normalization
+        5. Analysis and Evaluation
+    4. Serve Model
+        1. Put the model into production
+        2. Tools to use
+            1. Tensorflow Serving
+            2. Pytorch serving
+            3. Google API Platform
+            4. Sagemaker
+        3. MLOps
+            1. Software Engineering + Machine Learning
+    5. Retrain Model
+4. Machine Learning Tools
+    1. Libraries (Python)
+        1. Scikit-Learn
+        2. Tensorflow
+        3. Pytorch
+        4. ONNX
+    2. Experiment Tracking
+        1. Tensorboard
+        2. Dashboard by weights and biases
+        3. neptune.ai
+    3. Pretrained Models
+        1. Tensorflow Hub
+        2. Pytorch Hub
+        3. Huggingface transformers
+        4. Detectron2
+    4. Data and Model Tracking
+        1. Aretfacts by weights and biases
+        2. DVC (Data Version Control)
+    5. Cloud computing services
+        1. Google cloud computing
+        2. Sagemaker(AWS)
+        3. Google colab
+        4. Azure machine learning
+        5. Paperspace
+        6. Floydhub
+    6. Auto ML
+        1. Tpot
+        2. Google Auto ML
+        3. Microsoft automated machine learning
+        4. Sweeps by weights and biases
+        5. Keras tuner
+    7. Explainability
+        1. What if tool ?
+        2. Shap values
+    8. Streamlit - beautiful data driven user interfaces
+5. Machine Learning Mathematics
+    1. Linear algebra
+    2. Matrix manipulation
+    3. Multivariate calculus
+    4. The chain rule
+    5. Probability + Distributions
+    6. Optimization
+    7. 3Blue1Brown - Linear algebra
+    8. Rachel Thomas Youtube - Computational Linear Algebra
+    9. Mathematics for Machine Learning Book
+6. Machine Learning Resources
+    1. Python 
+        1. Free code camp
+        2. ZeroToMastery python full stack course
+        3. PythonLikeYouMeanIt
+    2. Machine Learning
+        1. Zero to Mastery Machine Learning Course
+        2. Kaggle learning centre
+        3. Datacamp
+        4. Dataquest
+    3. Fast.ai curriculum
+    4. Docker
+7. Blogs for Data Science
+    1. fastpages
+    2. github pages
